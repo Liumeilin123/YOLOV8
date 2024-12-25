@@ -1,0 +1,28 @@
+
+#taocinew--自己挑的数据集 taociall-he师兄的全部数据集
+# path: /home/liumeilin/yolov8 ultralytics-main/datasets/taociall
+# train: train
+# val: val
+# nc: 9
+# names: ['hiatus','rough','macula','protrusion','mix','chipping
+# ','scratch
+# ','flaw
+# ','bubble
+# ',]
+path: /home/liumeilin/yolov8 ultralytics-main/datasets/new/all last 
+# path: /home/liumeilin/yolov8 ultralytics-main/datasets/new/all
+# path: /home/liumeilin/yolov8 ultralytics-main/datasets/yuanbingtaoci/yuanbingall
+# path: /home/liumeilin/yolov8 ultralytics-main/datasets/lastthree/sameswitch/addflaw
+# path: /home/liumeilin/yolov8 ultralytics-main/datasets/lastthree/sameswitch addscratch
+# path: /home/liumeilin/yolov8 ultralytics-main/datasets/lastthree/sameswitch
+# path: /home/liumeilin/yolov8 ultralytics-main/datasets/taocinew addnew
+train: train
+val: val
+nc: 9
+# names: ['hiatus','rough','macula','protrusion','mix','flaw']
+# names: [
+  
+# ]
+names: ['chipping','rough','macula','protrusion','mix','scratch','flaw','hiatus','bubble'
+    ]
+

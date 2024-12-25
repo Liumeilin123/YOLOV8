@@ -1,0 +1,26 @@
+<annotation>
+  <folder>D:\dataenhance\newflaw\imgs\enhanceflawimg</folder>
+  <filename>117_11_2.jpg</filename>
+  <path>D:\dataenhance\newflaw\imgs\enhanceflawimg\117_11_2.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1425</width>
+    <height>943</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>flaw</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>400</xmin>
+      <ymin>521</ymin>
+      <xmax>1265</xmax>
+      <ymax>630</ymax>
+    </bndbox>
+  </object>
+</annotation>
