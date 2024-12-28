@@ -1,0 +1,11 @@
+数据集
+datsaets里包含了长方体、方形、圆柱、圆饼、全部等五种数据集，均进行了数据增强；同时包含了对应的yaml文件。
+根据需求选择不同的数据集 
+在main.py中选择不同的数据集更改设置参数，并进行训练和验证
+下载yolov8文件 安装requirements.txt
+改进
+添加CLLAHead检测头
+1.ultralytics/nn/modules目录下放入CLLAhead.py文件
+2.用本项目里的 task.py 替换 ultralytics/nn/tasks.py
+添加WIOUV3损失函数
+替换
