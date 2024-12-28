@@ -45,6 +45,8 @@ data = '/home/liumeilin/yolov8 ultralytics-main/my_data_alllast.yaml'
 
 # data = '/home/liumeilin/yolov8 ultralytics-main/my_data_diffyzfen.yaml'
 model.train(data = data, epochs=300, batch=8, save = True)
+# model.predict(data = data, save=True, conf=0.5, iou=0.6 save = True)
+#冻结层
 # def freeze_model(trainer):
 #     # Retrieve the batch data
 #     model = trainer.model
