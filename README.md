@@ -4,7 +4,11 @@ datsaets里包含了六种数据集，长方体、方形、圆柱、圆饼、全
 
 均进行了数据增强；同时包含了对应的yaml文件。
 
-下载yolov8文件 安装requirements.txt
+需要自行下载yolov8文件
+
+下载后克隆本项目
+
+安装requirements.txt
 
 
 **改进-添加CLLAHead检测头**
